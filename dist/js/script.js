@@ -17,3 +17,10 @@ hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 });
+
+// Tulisan
+const truncate = document.querySelector('#truncate');
+truncate.addEventListener('click', function () {
+    // console.log(true);
+    truncate.classList.toggle('truncate');
+});
